@@ -8,6 +8,15 @@ img.profilepicture{
 
 }
 
+.spacer{
+    height: 300px;
+}
+
+#main_row{
+    display: none;
+}
+
+
 body {
 	background-color:black;
 	color: #F7F7F7;
@@ -23,6 +32,7 @@ body {
 
 .border {
     margin: 3vw;
+    margin-top: 0px;
     
 }
 
