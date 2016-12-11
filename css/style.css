@@ -1,3 +1,7 @@
+body{
+    line-height: 1.5;
+}
+
 img.profilepicture{
 	display: block;
 	width:30vw;
@@ -7,6 +11,46 @@ img.profilepicture{
 	margin-right: auto;
 
 }
+
+.minilogos{
+    margin-top:auto;
+    margin-bottom:auto;
+    width:90px;
+    height: 35px;
+    background: url('../img/tedxgrey.png');
+    background-repeat: no-repeat;
+}
+
+.minilogos:hover{
+    margin-top:auto;
+    margin-bottom:auto;
+    width:90px;
+    height: 35px;
+    background: url('../img/tedxlogo.png');
+    background-repeat: no-repeat;
+
+}
+
+.minilogos2{
+    margin-top:auto;
+    margin-bottom:auto;
+    width:90px;
+    height: 35px;
+    background: url('../img/somsaminidarkgrey.png');
+    background-repeat: no-repeat;
+}
+
+.minilogos2:hover{
+    margin-top:auto;
+    margin-bottom:auto;
+    width:90px;
+    height: 35px;
+    background: url('../img/somsaminiwhite.png');
+    background-repeat: no-repeat;
+
+}
+
+
 
 .spacer{
     height: 300px;
@@ -100,7 +144,7 @@ h4 {
 
 }
 
-@media (max-width: 200px) {
+@media (max-width: 400px) {
     .fullscreen-bg {
         background:black;
     }
