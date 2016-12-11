@@ -50,7 +50,7 @@
 
 						<div class="col-md-4">
 							<h2><i class="fa fa-university" aria-hidden="true"></i> Education</h2>
-							I'm currently studying for an undergdatuate degree in <b>International Management and Modern Languages (French)</b> in my second year at the <b> University of Bath School of Management </b>, after studying for my A-Levels at my Sixth Form in Kent. 
+							I'm currently in my second year of studying for a BSc in <b>International Management and Modern Languages (French)</b> at the <b> University of Bath School of Management </b> after studying for my A-Levels and GCSEs at The Judd School in Kent. 
 							<br><br><br><br><br><br><br>
 
 						</div>
@@ -62,7 +62,7 @@
 
 								I lead as Managing Director of the <b>School of Management Student Association</b> and have had work experience with <b>BDO LLP</b> and <b>Penguin Random House</b>. 
 
-								I chair the <b>TEDx Bath University</b> conference organising committee and sit on the <b>Students' Union Sabbatical Officer Review Panel</b>. I've also enjoyed  insight days with <b>Accenture</b>, <b>UBS</b> and <b>JP Morgan Chase</b>.
+								I chair the <b>TEDx Bath University</b> conference committee and sit on the <b>Students' Union Sabbatical Officer Review Panel</b>. I've also enjoyed  insight days with <b>Accenture</b>, <b>UBS</b> and <b>JP Morgan Chase</b>.
 
 							</p> 
 
@@ -71,7 +71,7 @@
 						<div class="col-md-4">
 							<h2><i class="fa fa-address-card-o" aria-hidden="true"></i> Contact me</h2>
 
-							The best ways you can contact me are by either sending me an <b>email</b> to my University of Bath address or messaging me through my <b>LinkedIn</b> profile. I'm always interested in available opportunties you think I could suit.
+							The best ways you can contact me are by either sending me an<b>email</b> to my University of Bath address or messaging me through my <b>LinkedIn</b> profile (links to both below). I'm always interested in available opportunties you think I could suit.
 						</div>
 
 					</div>
@@ -87,8 +87,26 @@
 					</div>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="http://linkedin.com/in/atbutterworth">LinkedIn</a>
+							<a href="mailto:alexbutterworthmail@gmail.com?Subject=Hello!" target="_top"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
 						</li>
+						<li>
+							<a href="http://linkedin.com/in/atbutterworth"> 
+								<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.bathstudent.com/socs/societies/ideia/"> 
+								<div class="minilogos"> </div>
+							</a>
+						</li>
+
+						<li>
+							<a href="http://bathsomsa.com"> 
+								<div class="minilogos2"> </div>
+							</a>
+						</li>
+
 					</ul>
 				</div>
 			</nav>
@@ -108,6 +126,13 @@ $(window).scroll(function (event) {
     }
 });
 
+$(window).scroll(function (event) {
+    var screenedwidth = $(window).screenwidth();
+    console.log(screenedwidth);
+    if(screenedwidth < 700){
+    	$('.spacer').remove();
+    }
+});
 
 </script>
 
