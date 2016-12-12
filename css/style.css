@@ -144,7 +144,7 @@ h4 {
 
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 480px) {
     .fullscreen-bg {
         background:black;
     }
