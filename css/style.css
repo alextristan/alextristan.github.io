@@ -144,6 +144,9 @@ h4 {
 
 }
 
+
+.visible-desktop
+
 @media screen and (max-width: 480px) {
     .fullscreen-bg {
         background:black;
